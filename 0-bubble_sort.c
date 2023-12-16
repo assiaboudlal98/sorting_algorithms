@@ -1,4 +1,10 @@
 #include "sort.h"
+/**
+ * bubble_sort - funct sorts 'arr' of integers
+ *	in ascending order using Bubble sort alg,
+ * @array: pnter to the arr,
+ * @size: the arr's size,
+ */
 void bubble_sort(int *array, size_t size)
 {
 	size_t l, t;
@@ -22,7 +28,7 @@ void bubble_sort(int *array, size_t size)
 				q = 1;
 			}
 		}
-		 if(!q)
-			 break;
+		if (!q)
+			break;
 	}
 }

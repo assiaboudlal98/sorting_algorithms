@@ -1,4 +1,9 @@
 #include "sort.h"
+/**
+ * insertion_sort_list - function that sorts a doubly linked list
+ *	of int in ascending order using Insrtion sort alg,
+ * @list: pntr to pointr to the head of linkd lst,
+ */
 void insertion_sort_list(listint_t **list)
 {
 	listint_t *crn_t;
